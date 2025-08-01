@@ -25,7 +25,7 @@ Package: lxc-pve
 Architecture: any
 Depends: apparmor,
          bridge-utils,
-         criu (>= 1.5.2-1),
+         criu (>= 1.5.2-1) [!riscv64],
          libcap2,
          lxcfs,
          python3,
